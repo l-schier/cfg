@@ -1,3 +1,3 @@
 Setup script to run:
 
-https://github.com/l-schier/cfg/blob/4ce34698538d93b7da1c446630365fd29e3697bb/.setup_dot_files.sh#L1-L15
+`curl -Lks https://raw.githubusercontent.com/l-schier/cfg/main/.bin/.setup_dot_files.sh | /bin/bash`
