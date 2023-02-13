@@ -1,4 +1,4 @@
-git clone --bare https://github.com/l-schier/cfg $HOME/.cfg
+git clone --bare git@github.com:l-schier/cfg.git $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
 }
