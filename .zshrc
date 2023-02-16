@@ -116,7 +116,7 @@ source $ZSH/oh-my-zsh.sh
 alias config='/usr/bin/git --git-dir=/home/schier/.cfg/ --work-tree=/home/schier'
 
 if [ -z "$SSH_AUTH_SOCK" ] ; then
- eval $(ssh-agent -s)'
+ eval $(ssh-agent -s)
  ssh-add ~/.ssh/id_ssh_github
  trap 'kill $SSH_AGENT_PID' EXIT
 fi
